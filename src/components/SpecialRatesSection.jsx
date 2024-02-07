@@ -68,7 +68,7 @@ const SpecialRatesSection = () => {
           id="size"
           value={containerSize}
           onChange={handleSizeChange}
-          className="border border-gray-300 rounded-lg px-2 py-1"
+          className="border border-gray-300 rounded-lg px-2 lg:px-6 lg:py-2 py-1"
         >
           <option value="20FT">20FT</option>
           <option value="40FT">40FT</option>
@@ -80,7 +80,7 @@ const SpecialRatesSection = () => {
           id="type"
           value={containerType}
           onChange={handleTypeChange}
-          className="border border-gray-300 rounded-lg px-2 py-1"
+          className="border border-gray-300 rounded-lg px-2 py-1 lg:px-6 lg:py-2"
         >
           <option value="dry">Dry</option>
           <option value="reefer">Reefer</option>
@@ -92,7 +92,7 @@ const SpecialRatesSection = () => {
           id="carrier"
           value={carrierName}
           onChange={handleCarrierChange}
-          className="border border-gray-300 rounded-lg px-2 py-1"
+          className="border border-gray-300 rounded-lg px-2 py-1 lg:px-6 lg:py-2"
         >
           <option value="">All</option>
           {carrierNames.map((name, index) => (
